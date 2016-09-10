@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html class="ttu no-js" lang="en-us">
 <head>
@@ -5,11 +6,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   <title>LAZARUS | Math | TTU</title>
+   <title>LAZARUS | MATH | TTU</title>
    <link rel="stylesheet" href="./css/app.css" media="all" />
 <script src="./js/global-head.js"></script>
 <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+
 
    <meta name="Author" content="State of Texas and Texas Tech University">
    <meta name="Keywords" content="Texas Tech University">
@@ -19,23 +21,345 @@
    </head>
 <body>
    <!-- Main-header Logo Links = = = = = = = = = = = = = = = = = = = = = = = = = -->
-   <header id="nav" class="cd-main-header is-homepage "><a href="http://www.ttu.edu/"><img class="c-main-header__image" src="./img/hlogo.svg" alt="Texas Tech University" title="Texas Tech University" /></a>
-
-   <nav class="l-main-header is-homepage">
+   <div class="l-main-header"><a href="http://www.ttu.edu/"><img class="c-main-header__image" src="./img/hlogo.svg" alt="Texas Tech University" title="Texas Tech University" /></a>
+      <nav class="c-main-header__links">
 
 <a href="http://directory.texastech.edu/" tabindex="2" aria-label="TTU System Online Directory">Directory</a>
 <a href="http://raiderlink.ttu.edu/" tabindex="3" aria-label="Raiderlink">Raiderlink</a>
 <a href="http://www.ttu.edu/site/" tabindex="4" aria-label="Site Index">A-Z Index</a>
-<a class="icon-search" href="#" aria-label="Search TTU"></a>
+<div class="c-main-header__links-icons"><a class="cd-search-trigger" href="#cd-search" aria-label="Search TTU">Search<span></span></a></div>
+<div class="c-main-header__links-icons"><a class="icon-menu" data-dropdown="drop2" aria-hidden="true" aria-controls="drop2" aria-expanded="false" aria-label="TTU Menu"></a></div>
 </nav>
 
+   </div>
    <!-- Page Header Navigation = = = = = = = = = = = = = = = = = = = = = = = = = -->
-   <header id="nav" class="cd-main-header is-homepage "><a href="./index.html"><img class="c-main-header__image" src="./img/header.png" alt="LAZARUS" title="LAZARUS" /></a>
-
+   <header id="nav" class="cd-main-header">
+      <div class="l-page-header__container">
+         <h2 class="c-page-header__title topbar"><a href="#"> LAZARUS</a></h2>
+      </div>
       <div class="l-primary-nav__container">
          <ul class="cd-header-buttons">
 	<li><a class="cd-search-trigger" href="#cd-search" title="Search">Search<span></span></a></li>
 	<li><a class="cd-nav-trigger" href="#cd-primary-nav" title="Menu">Menu<span></span></a></li>
+</ul>
+
+         <ul id="drop2" class="f-dropdown text-left" data-dropdown-content="true" aria-hidden="true">
+   <label class="c-page-header__title"> Texas Tech University </label>
+
+   <li class="has-children"><a href="http://www.ttu.edu/admissions/">Admissions</a>
+   <ul class="cd-secondary-nav is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Admissions
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li class="has-children"><a href="http://www.admissions.ttu.edu/">Undergraduate</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Admissions<br>
+         Undergraduate
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.admissions.ttu.edu/admissions-finaid/first_freshmen/">First-time Students</a></li>
+   <li><a href="http://www.admissions.ttu.edu/admissions-finaid/transfer/">Transfer Students</a></li>
+   <li><a href="http://www.international.ttu.edu/ieem/prosadmitted.php">International</a></li>
+   </ul>
+   </li>
+   <li class="has-children"><a href="http://www.gradschool.ttu.edu/admissions/">Graduate</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Admissions<br>
+         Graduate
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.gradschool.ttu.edu/admissions/domestic/">Domestic: U.S.-Citizen Students</a></li>
+   <li><a href="http://www.gradschool.ttu.edu/admissions/international/">International Students</a></li>
+   </ul>
+   </li>
+   <li class="has-children"><a href="http://www.law.ttu.edu/prospective/admissions/">School of Law</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Admissions<br>
+         School of Law
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.law.ttu.edu/prospective/admissions/apply/">Application Process</a></li>
+   <li><a href="http://www.law.ttu.edu/prospective/admissions/apply/">Frequently Asked Questions</a></li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   <li class="has-children"><a href="http://www.ttu.edu/majors-and-colleges/">Majors &amp; Colleges</a>
+   <ul class="cd-secondary-nav is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Majors &amp; Colleges
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li class="has-children"><a href="http://www.ttu.edu/majors-and-colleges/">Majors &amp; Programs</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Majors &amp; Colleges<br>
+         Majors &amp; Programs
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.ttu.edu/majors-and-colleges/undergraduate-majors/">Undergraduate Majors</a></li>
+   <li><a href="http://www.gradschool.ttu.edu/graduate_titlepage.php">Graduate Programs</a></li>
+   <li><a href="http://www.law.ttu.edu/">School of Law</a></li>
+   <li><a href="http://www.elearning.ttu.edu/">Worldwide eLearning</a></li>
+   <li><a href="http://library.ttu.edu/">University Libraries</a></li>
+   </ul>
+   </li>
+   <li class="has-children"><a href="http://www.ttu.edu/majors-and-colleges/#colleges">Colleges &amp; Schools</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Majors &amp; Colleges<br>
+         Colleges &amp; Schools
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.casnr.ttu.edu/">College of Agricultural Sciences &amp; Natural Resources</a></li>
+   <li><a href="http://arch.ttu.edu/">College of Architecture</a></li>
+   <li><a href="http://www.as.ttu.edu/">College of Arts &amp; Sciences</a></li>
+   <li><a href="http://www.rawlsbusiness.ttu.edu/">Jerry S. Rawls College of Business Administration</a></li>
+   <li><a href="http://www.educ.ttu.edu/">College of Education</a></li>
+   <li><a href="http://www.coe.ttu.edu/">Edward E. Whitacre Jr. College of Engineering</a></li>
+   <li><a href="http://www.honors.ttu.edu/">Honors College</a></li>
+   <li><a href="http://www.hs.ttu.edu/">College of Human Sciences</a></li>
+   <li><a href="http://www.mcom.ttu.edu/">College of Media &amp; Communication</a></li>
+   <li><a href="http://www.depts.ttu.edu/cvpa/">College of Visual &amp; Performing Arts</a></li>
+   <li><a href="http://www.gradschool.ttu.edu/">Graduate School</a></li>
+   <li><a href="http://www.law.ttu.edu/">School of Law</a></li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   <li><a href="http://www.vpr.ttu.edu/">Research</a></li>
+   <li class="has-children"><a href="http://www.ttu.edu/alumni/">Alumni Community</a>
+   <ul class="cd-secondary-nav is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Alumni Community
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li class="has-children"><a href="#">Alumni Community</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Alumni Community<br>
+         Alumni Community
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.texastechalumni.org/">Texas Tech Alumni Association</a></li>
+   <li><a href="http://www.give2tech.com/">Institutional Advancement</a></li>
+   <li><a href="http://www.redraiderclub.com/">Texas Tech Red Raider Club</a></li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   <li class="has-children"><a href="http://www.ttu.edu/campus-life/">Campus Life</a>
+   <ul class="cd-secondary-nav is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Campus Life
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li class="has-children"><a href="http://www.ttu.edu/campus-life/">Campus Life</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Campus Life<br>
+         Campus Life
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://housing.ttu.edu/">Housing &amp; Facilities</a></li>
+   <li><a href="http://www.ttu.edu/map/">Getting Around Campus</a></li>
+   <li><a href="http://www.hospitality.ttu.edu/">Dining on Campus</a></li>
+   <li><a href="http://www.recsports.ttu.edu/">Recreational Sports</a></li>
+   <li><a href="http://www.ttu.edu/about/campus.php">Our Campus</a></li>
+   <li><a href="http://www.visit.ttu.edu/">Visit TTU</a></li>
+   </ul>
+   </li>
+   <li class="has-children"><a href="http://www.ttu.edu/campus-life/student-life">Student Life</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Campus Life<br>
+         Student Life
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.campuslife.ttu.edu/">Center for Campus Life</a></li>
+   <li><a href="http://www.sub.ttu.edu/">Student Union &amp; Activities</a></li>
+   <li><a href="http://greeklife.ttu.edu/">Fraternity &amp; Sorority Life</a></li>
+   <li><a href="http://www.campuslife.ttu.edu/spiritsquads/">Spirit Squads</a></li>
+   <li><a href="http://www.ttu.edu/campus-life/student-life/student-organizations.php">Student Organizations</a></li>
+   <li><a href="http://housing.ttu.edu/reslife/leadership">Student Leadership &amp; Involvement</a></li>
+   <li><a href="http://www.ttu.edu/traditions/">History &amp; Traditions</a></li>
+   <li><a href="http://www.recsports.ttu.edu/">Student Rec Center</a></li>
+   </ul>
+   </li>
+   <li class="has-children"><a href="http://www.ttu.edu/campus-life/health-safety-wellness.php">Health, Safety &amp; Wellness</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Campus Life<br>
+         Health, Safety &amp; Wellness
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://emergency.ttu.edu/">Emergency Communications Center</a></li>
+   <li><a href="http://counseling.ttu.edu">Student Counseling Center</a></li>
+   <li><a href="http://www.ttuhsc.edu/studenthealth/">Student Health Services</a></li>
+   <li><a href="http://www.hs.ttu.edu/csa/">Center for the Study of Addiction and Recovery</a></li>
+   <li><a href="http://www.ttuhsc.edu/studentHealth/healthinsurance.aspx">Health Insurance</a></li>
+   <li><a href="http://responsibleliving.ttu.edu/">Responsible Community Living</a></li>
+   <li><a href="http://www.ttpd.ttu.edu/">Campus Police</a></li>
+   <li><a href="http://www.deanofstudents.ttu.edu/bit/">Behavioral Intervention Team</a></li>
+   <li><a href="http://www.depts.ttu.edu/rise/">Risk Intervention &amp; Safety Education (RISE)</a></li>
+   </ul>
+   </li>
+   <li class="has-children"><a href="http://www.ttu.edu/campus-life/student-resources.php">Student Resources</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">Campus Life<br>
+         Student Resources
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.ttu.edu/current-students/">Current Students</a></li>
+   <li><a href="http://www.ttu.edu/studenthandbook">Student Handbook</a></li>
+   <li><a href="http://www.deanofstudents.ttu.edu/">Dean of Students</a></li>
+   <li><a href="http://www.careercenter.ttu.edu/">University Career Center</a></li>
+   <li><a href="http://cmsdev.ttu.edu/diversity/">Division of Institutional Diversity Equity &amp; Community Engagement</a></li>
+   <li><a href="http://www.mentortech.ttu.edu/">Mentor Tech</a></li>
+   <li><a href="http://www.ttu.edu/majors-and-colleges/academic-support.php">Academic Support</a></li>
+   <li><a href="http://www.depts.ttu.edu/diversity/ccaac/">Cross Cultural Advancement Center</a></li>
+   <li><a href="http://www.r2b.ttu.edu/">Red to Black - Student Financial Planning</a></li>
+   <li><a href="http://www.raidercard.ttu.edu/">University ID Card</a></li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   <li><a href="http://www.texastech.com/">Athletics</a></li>
+   <li class="has-children"><a href="http://www.ttu.edu/about/">About TTU</a>
+   <ul class="cd-secondary-nav is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">About TTU
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li class="has-children"><a href="http://www.ttu.edu/">Texas Tech University</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">About TTU<br>
+         Texas Tech University
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.ttu.edu/administration/president/">Office of the President</a></li>
+   <li><a href="http://www.provost.ttu.edu/">Office of the Provost</a></li>
+   <li><a href="http://www.ttu.edu/about/facts/">Texas Tech Facts</a></li>
+   <li><a href="http://www.ttu.edu/about/campus.php">Our Campus</a></li>
+   <li><a href="http://www.ttu.edu/administration/">Administrative Offices</a></li>
+   <li><a href="http://www.ttu.edu/stratplan/">University Strategic Plan</a></li>
+   <li><a href="http://www.ttu.edu/about/ttu-in-the-community/">TTU in the Community</a></li>
+   <li><a href="http://www.investu.ttu.edu/">The Value of Texas Tech</a></li>
+   </ul>
+   </li>
+   <li class="has-children"><a href="#">TTU Resources</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">About TTU<br>
+         TTU Resources
+         </label>
+
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://today.ttu.edu/">Texas Tech Today</a></li>
+   <li><a href="http://www.ttu.edu/map/">Campus Map</a></li>
+   <li><a href="http://www.depts.ttu.edu/officialpublications/calendar/">Academic Calendar</a></li>
+   <li><a href="http://www.give2tech.com/">Giving</a></li>
+   <li><a href="http://www.hr.ttu.edu/workattexastech/">Work at Texas Tech</a></li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+
+   <div class="l-ttunav is-hidden"><label class="c-page-header__title">Additional Resources</label>
+<a href="http://directory.texastech.edu/" tabindex="2" aria-label="TTU System Online Directory">Directory</a>
+<a href="http://raiderlink.ttu.edu/" tabindex="3" aria-label="Raiderlink">Raiderlink</a>
+<a href="http://www.ttu.edu/site/" tabindex="4" aria-label="Site Index">A-Z Index</a>
+</div>
 </ul>
          <!-- cd-header-buttons -->
 <div id="cd-search" class="cd-search">
@@ -58,44 +382,74 @@
          <ul class="breadcrumbs">
 
             <li class="breadcrumbs-item"><a href="http://www.ttu.edu/" class="text-center icon-home">&nbsp;</a></li>
-            <li class="breadcrumbs-item test"><a href="./index.html">LAZARUS</a></li>
+            <li class="breadcrumbs-item"><a href="./index.html">LAZARUS</a></li>
          </ul>
       </section>
       <!-- End Breadcrumbs = = = = = = = = = = = = = = = = = = = = = = = -->
       <section class="l-main-pagecontent">
          <div class="row">
             <!-- Main content = = = = = = = = = = = = = = = = = = = = = = = -->
-            <!-- ADD MAIN CONTENT BELOW THIS LINE -->
+            <img src="./img/header.png" alt="LAZARUS"> 
+            <div class="large-8 columns">
 
-            <h1>#lazaruslives</h1>
-            <p>
-              The <strong>Lab for the Analysis of Zombie Activity and Research into Undead Simulations (LAZARUS)</strong> was founded at
-              Texas Tech University in 2014 as the result of the synergistic efforts of the Department of <em>Mathematics &amp; Statistics,
-              the Science, Technology, Engineering, and Mathematics (STEM) Center for Outreach, Research &amp; Education (STEM-CORE),
-              and a number of independent initiatives funded by the National Science Foundation.</em>
-            </p>
+              <h2>#lazaruslives</h2>
+              <p>
+                The <strong>Lab for the Analysis of Zombie Activity and Research into Undead Simulations (LAZARUS)</strong> was founded at
+                Texas Tech University in 2014 as the result of the synergistic efforts of the Department of <em>Mathematics &amp; Statistics,
+                the Science, Technology, Engineering, and Mathematics (STEM) Center for Outreach, Research &amp; Education (STEM-CORE),
+                and a number of independent initiatives funded by the National Science Foundation.</em>
+              </p>
 
-            <p>
-              The lab is designed to serve two purposes:
-            </p>
+              <p>
+                The lab is designed to serve two purposes:
+              </p>
 
-              <ol class="default-list">
-                 <li>Support research opportunities for undergraduate and graduate students</li>
-                 <li>Support K12 outreach efforts designed to increase awareness and interest in STEM academic and career pathways.</li>
-              </ol>
+                <ol class="default-list">
+                   <li>Support research opportunities for undergraduate and graduate students</li>
+                   <li>Support K12 outreach efforts designed to increase awareness and interest in STEM academic and career pathways.</li>
+                </ol>
 
 
-            <p>
-              While the lab hosts a number of resources designed to support these objectives, a supercomputer branded as the Schoenberg Cluster is featured as the lab’s centerpiece.
-            </p>
+              <p>
+                While the lab hosts a number of resources designed to support these objectives, a supercomputer branded as the Schoenberg Cluster is featured as the lab’s centerpiece.
+              </p>
+                  <!-- ADD MAIN CONTENT ABOVE THIS LINE -->
 
-<!-- ADD MAIN CONTENT ABOVE THIS LINE -->
+            </div>
+            <div class="large-4 columns">
 
-<!-- End Main Content = = = = = = = = = = = = = = = = = = = = = -->
+
+                  <!-- ADD SIDE CONTENT BELOW THIS LINE --><img src="./img/schoenberg.png" alt="Schoenberg">
+                  <!-- <h2>Important Links</h2>
+                  <ul class="default-list">
+                     <li><a href="/hpcc/about/services.php">HPCC Services</a></li>
+                     <li><a href="/hpcc/accounts/index.php">Account Information</a></li>
+                     <li><a href="/hpcc/userguides/index.php">User Guides</a></li>
+                     <li><a href="/hpcc/about/contact.php">Contact</a></li>
+                  </ul> -->
+                  <!-- ADD SIDE CONTENT ABOVE THIS LINE -->
+
+            </div>
+            <!-- End Main Content = = = = = = = = = = = = = = = = = = = = = -->
          </div>
       </section>
       <!-- Contact Info = = = = = = = = = = = = = = = = = = = = = = = = =
-			http://www.ttu.edu//includes/contacts.php-->
+			http://www.depts.ttu.edu/hpcc/includes/contacts.php-->
+      <section class="l-contact">
+         <div class="c-contactinfo__title">
+            <h1>Contact</h1>
+            <h2> LAZARUS </h2>
+         </div><div class="c-contactinfo__list">
+   <ul>
+      <li>
+         <h3>Phone:&nbsp;</h3>
+         <a href="tel:806.742.2542">806.742.2542</a></li>
+      <li>
+         <h3>Email:&nbsp;</h3>
+         <a href="mailto:lazarus.ttu@gmail.com">lazarus.ttu@gmail.com</a></li>
+   </ul>
+</div>
+      </section>
 
       <!-- CTA Buttons = = = = = = = = = = = = = = = = = = = = = = = = = -->
       <div class="l-cta-bar">
@@ -132,7 +486,7 @@
             <div class="large-9 columns"><div class="c-footer-university__links u-flexcol">
 	<div>
 		<ul>
-			<li><a href="mailto:webmaster@ttu.edu?subject=Contact%20TTU%20-%20http%3A%2F%2Fwww.ttu.edu%2Fwebguidelines%2Fpublishing%2Fexamples%2Fstandard%2Findex.php">Contact Us</a></li>
+			<li><a href="mailto:webmaster@ttu.edu?subject=Contact%20TTU%20-%20http%3A%2F%2Fwww.depts.ttu.edu%2Fhpcc%2Findex.php">Contact Us</a></li>
 			<li><a href="http://www.ttu.edu/map/">Campus Map</a></li>
 			<li><a href="http://careers.texastech.edu/">Jobs @ TTU</a></li>
 		</ul>
@@ -175,190 +529,389 @@
          <div>
             <p>© 2016 <a href="http://www.ttu.edu/">Texas Tech University</a></p>
          </div>
+         <div>
+            <p>Updated:
+               <a href="http://a.cms.omniupdate.com/10?skin=ttu&amp;account=main&amp;site=hpcc&amp;action=de&amp;path=/index.pcf" target="_blank">May 5, 2016</a>
+               4:19 PM
+            </p>
+         </div>
       </div>
 
    </main>
 
    <!-- Menu Overlay = = = = = = = = = = = = = = = = = = = = = -->
    <div class="cd-overlay"></div>
-   <nav class="cd-nav ">
-      <ul id="cd-primary-nav" class="cd-primary-nav ">
+
+
+   <nav class="cd-nav">
+      <ul id="cd-primary-nav" class="cd-primary-nav">
+
+         <label class="c-page-header__title"> LAZARUS </label>
+
+
+         <li class="has-children "><a href="#">About</a>
+
+            <ul class="cd-secondary-nav is-hidden">
+               <div class="c-page-header__mobile">
+                  <label class="c-page-header__title"> LAZARUS </label>
+                  <br>
+                  <label class="c-page-header__category">About</label>
+
+                  <hr>
+               </div>
+               <li class="go-back"><a href="#0">Back</a></li>
+
+
+               <li class="has-children "><a href="#">History</a>
+
+                  <ul class="is-hidden">
+                     <div class="c-page-header__mobile">
+                        <label class="c-page-header__title"> LAZARUS </label>
+                        <br>
+                        <label class="c-page-header__category">About</label>
+
+                        <br>
+                        <label class="c-page-header__category">History</label>
+
+                        <hr>
+                     </div>
+                     <li class="go-back"><a href="#0">Back</a></li>
+
+                     <li><a href="#">Story</a></li>
+                     <li><a href="#">Timeline</a></li>
+                  </ul>
+               </li>
+
+               <li><a href="#">Team</a></li>
+               <li><a href="#">Supporters</a></li>
+            </ul>
+         </li>
+
+         <li class="has-children "><a href="#">Outreach</a>
+
+            <ul class="cd-secondary-nav is-hidden">
+               <div class="c-page-header__mobile">
+                  <label class="c-page-header__title"> LAZARUS </label>
+                  <br>
+                  <label class="c-page-header__category">Outreach</label>
+
+                  <hr>
+               </div>
+               <li class="go-back"><a href="#0">Back</a></li>
+
+
+               <li><a href="#">Projects</a></li>
+               <li><a href="#">Education</a></li>
+            </ul>
+         </li>
+
+         <li class="has-children "><a href="#">Projects</a>
+
+            <ul class="cd-secondary-nav is-hidden">
+               <div class="c-page-header__mobile">
+                  <label class="c-page-header__title"> LAZARUS </label>
+                  <br>
+                  <label class="c-page-header__category">Projects</label>
+
+                  <hr>
+               </div>
+               <li class="go-back"><a href="#0">Back</a></li>
+
+
+               <li class="has-children "><a href="#">Projects</a>
+
+                  <ul class="is-hidden">
+                     <div class="c-page-header__mobile">
+                        <label class="c-page-header__title"> LAZARUS </label>
+                        <br>
+                        <label class="c-page-header__category">Projects</label>
+
+                        <br>
+                        <label class="c-page-header__category">Projects</label>
+
+                        <hr>
+                     </div>
+
+                     <li class="go-back"><a href="#0">Back</a></li>
+
+                     <li><a href="#">Ongoing Projects</a></li>
+                     <li><a href="#">Past Projects</a></li>
+                     <li><a href="#">Unclaimed Projects</a></li>
+
+                  </ul>
+               </li>
+
+               <li class="has-children "><a href="#">Get Involved</a>
+
+                  <ul class="is-hidden">
+                     <div class="c-page-header__mobile">
+                        <label class="c-page-header__title"> LAZARUS </label>
+                        <br>
+                        <label class="c-page-header__category">Projects</label>
+
+                        <br>
+                        <label class="c-page-header__category">Get Involved</label>
+
+                        <hr>
+                     </div>
+
+                     <li class="go-back"><a href="#0">Back</a></li>
+
+                     <li><a href="#">How to Join A Project</a></li>
+                     <li><a href="#">Submit Project idea</a></li>
+
+                  </ul>
+               </li>
+
+            </ul>
+         </li>
+
+
+         <li class="has-children "><a href="#">Education</a>
+
+            <ul class="cd-secondary-nav is-hidden">
+               <div class="c-page-header__mobile">
+                  <label class="c-page-header__title"> LAZARUS </label>
+                  <br>
+                  <label class="c-page-header__category">Education</label>
+
+                  <hr>
+               </div>
+               <li class="go-back"><a href="#0">Back</a></li>
+
+
+               <li class="has-children"><a href="#">Course Descriptions</a>
+               <ul class="is-hidden">
+               <div class="c-page-header__mobile">
+                  <label class="c-page-header__title"> Texas Tech University </label>
+                  <br>
+                  <label class="c-page-header__category">Education<br>
+                     Course Descriptions
+                     </label>
+
+                  <hr>
+               </div>
+               <li class="go-back"><a href="#0">Back</a></li>
+               <li><a href="#">MATH 4330</a></li>
+               <li><a href="#">MATH 3430</a></li>
+               </ul>
+               </li>
+
+               <li class="has-children"><a href="#">MATH 3430 - Fall 2015</a>
+               <ul class="is-hidden">
+               <div class="c-page-header__mobile">
+                  <label class="c-page-header__title"> Texas Tech University </label>
+                  <br>
+                  <label class="c-page-header__category">Education<br>
+                     MATH 3430 - Fall 2015
+                     </label>
+
+                  <hr>
+               </div>
+               <li class="go-back"><a href="#0">Back</a></li>
+               <li><a href="#">Syllabus</a></li>
+               <li><a href="#">Assignments</a></li>
+               <li><a href="#">Lectures</a></li>
+               </ul>
+               </li>
+               <li class="has-children"><a href="#">MATH 4330 - Fall 2016</a>
+               <ul class="is-hidden">
+               <div class="c-page-header__mobile">
+                  <label class="c-page-header__title"> Texas Tech University </label>
+                  <br>
+                  <label class="c-page-header__category">Education<br>
+                     MATH 4330 - Fall 2016
+                     </label>
+
+                  <hr>
+               </div>
+               <li class="go-back"><a href="#0">Back</a></li>
+               <li><a href="#">Syllabus</a></li>
+               <li><a href="#">Assignments</a></li>
+               <li><a href="#">Lectures</a></li>
+               </ul>
+               </li>
+
+               <li class="has-children"><a href="#">Past Courses</a>
+               <ul class="is-hidden">
+               <div class="c-page-header__mobile">
+                  <label class="c-page-header__title"> Texas Tech University </label>
+                  <br>
+                  <label class="c-page-header__category">Education<br>
+                     Past Courses
+                     </label>
+
+                  <hr>
+               </div>
+               <li class="go-back"><a href="#0">Back</a></li>
+               <li><a href="#">MATH 4330 - Spring 2016</a></li>
+               <li><a href="#">MATH 3430 - Fall 2015</a></li>
+               </ul>
+               </li>
+
+               </ul>
+               </li>
+             <li><a href="#">Publications</a></li>
+
+             <li><a href="#">Contact Us</a></li>
+
+
+         <hr>
+         <div class="l-ttunav">
    <label class="c-page-header__title"> Texas Tech University </label>
 
-   <li class="has-children"><a href="#">About</a>
+   <li class="has-children"><a href="http://www.ttu.edu/admissions/">Admissions</a>
    <ul class="cd-secondary-nav is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">About
+      <label class="c-page-header__category">Admissions
          </label>
 
       <hr>
    </div>
-
    <li class="go-back"><a href="#0">Back</a></li>
-   <li class="has-children"><a href="#">Timeline</a>
+   <li class="has-children"><a href="http://www.admissions.ttu.edu/">Undergraduate</a>
    <ul class="is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">About<br>
-         Timeline
+      <label class="c-page-header__category">Admissions<br>
+         Undergraduate
          </label>
 
       <hr>
    </div>
-
    <li class="go-back"><a href="#0">Back</a></li>
-
+   <li><a href="http://www.admissions.ttu.edu/admissions-finaid/first_freshmen/">First-time Students</a></li>
+   <li><a href="http://www.admissions.ttu.edu/admissions-finaid/transfer/">Transfer Students</a></li>
+   <li><a href="http://www.international.ttu.edu/ieem/prosadmitted.php">International</a></li>
    </ul>
    </li>
-   <li class="has-children"><a href="#">Posters</a>
+   <li class="has-children"><a href="http://www.gradschool.ttu.edu/admissions/">Graduate</a>
    <ul class="is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">About<br>
-         Posters
+      <label class="c-page-header__category">Admissions<br>
+         Graduate
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.gradschool.ttu.edu/admissions/domestic/">Domestic: U.S.-Citizen Students</a></li>
+   <li><a href="http://www.gradschool.ttu.edu/admissions/international/">International Students</a></li>
    </ul>
    </li>
-
-   <li class="has-children"><a href="#">Project Supporters</a>
+   <li class="has-children"><a href="http://www.law.ttu.edu/prospective/admissions/">School of Law</a>
    <ul class="is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">About<br>
-         Project Supports
+      <label class="c-page-header__category">Admissions<br>
+         School of Law
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.law.ttu.edu/prospective/admissions/apply/">Application Process</a></li>
+   <li><a href="http://www.law.ttu.edu/prospective/admissions/apply/">Frequently Asked Questions</a></li>
    </ul>
    </li>
-
-   <li class="has-children"><a href="#">Team</a>
-   <ul class="is-hidden">
-   <div class="c-page-header__mobile">
-      <label class="c-page-header__title"> Texas Tech University </label>
-      <br>
-      <label class="c-page-header__category">About<br>
-         Team
-         </label>
-
-      <hr>
-   </div>
-   <li class="go-back"><a href="#0">Back</a></li>
    </ul>
    </li>
-
-   </ul>
-   </li>
-   <li class="has-children"><a href="#">Outreach</a>
+   <li class="has-children"><a href="http://www.ttu.edu/majors-and-colleges/">Majors &amp; Colleges</a>
    <ul class="cd-secondary-nav is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">Projects
+      <label class="c-page-header__category">Majors &amp; Colleges
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
-   <li class="has-children"><a href="#">Projects</a>
+   <li class="has-children"><a href="http://www.ttu.edu/majors-and-colleges/">Majors &amp; Programs</a>
    <ul class="is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">Outreach<br>
-         Projects
+      <label class="c-page-header__category">Majors &amp; Colleges<br>
+         Majors &amp; Programs
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
-
+   <li><a href="http://www.ttu.edu/majors-and-colleges/undergraduate-majors/">Undergraduate Majors</a></li>
+   <li><a href="http://www.gradschool.ttu.edu/graduate_titlepage.php">Graduate Programs</a></li>
+   <li><a href="http://www.law.ttu.edu/">School of Law</a></li>
+   <li><a href="http://www.elearning.ttu.edu/">Worldwide eLearning</a></li>
+   <li><a href="http://library.ttu.edu/">University Libraries</a></li>
    </ul>
    </li>
-   <li class="has-children"><a href="#">Education</a>
+   <li class="has-children"><a href="http://www.ttu.edu/majors-and-colleges/#colleges">Colleges &amp; Schools</a>
    <ul class="is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">Outreach<br>
-        Education
+      <label class="c-page-header__category">Majors &amp; Colleges<br>
+         Colleges &amp; Schools
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
-
-
+   <li><a href="http://www.casnr.ttu.edu/">College of Agricultural Sciences &amp; Natural Resources</a></li>
+   <li><a href="http://arch.ttu.edu/">College of Architecture</a></li>
+   <li><a href="http://www.as.ttu.edu/">College of Arts &amp; Sciences</a></li>
+   <li><a href="http://www.rawlsbusiness.ttu.edu/">Jerry S. Rawls College of Business Administration</a></li>
+   <li><a href="http://www.educ.ttu.edu/">College of Education</a></li>
+   <li><a href="http://www.coe.ttu.edu/">Edward E. Whitacre Jr. College of Engineering</a></li>
+   <li><a href="http://www.honors.ttu.edu/">Honors College</a></li>
+   <li><a href="http://www.hs.ttu.edu/">College of Human Sciences</a></li>
+   <li><a href="http://www.mcom.ttu.edu/">College of Media &amp; Communication</a></li>
+   <li><a href="http://www.depts.ttu.edu/cvpa/">College of Visual &amp; Performing Arts</a></li>
+   <li><a href="http://www.gradschool.ttu.edu/">Graduate School</a></li>
+   <li><a href="http://www.law.ttu.edu/">School of Law</a></li>
    </ul>
    </li>
    </ul>
    </li>
-
-   <li class="has-children"><a href="#">Projects</a>
+   <li><a href="http://www.vpr.ttu.edu/">Research</a></li>
+   <li class="has-children"><a href="http://www.ttu.edu/alumni/">Alumni Community</a>
    <ul class="cd-secondary-nav is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">Projects
+      <label class="c-page-header__category">Alumni Community
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
-   <li class="has-children"><a href="#">Projects</a>
+   <li class="has-children"><a href="#">Alumni Community</a>
    <ul class="is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">Projects<br>
-         Projects
+      <label class="c-page-header__category">Alumni Community<br>
+         Alumni Community
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
-   <li><a href="#">Ongoing Projects</a></li>
-   <li><a href="#">Past Projects</a></li>
-   <li><a href="#">Unclaimed Projects</a></li>
-
-
+   <li><a href="http://www.texastechalumni.org/">Texas Tech Alumni Association</a></li>
+   <li><a href="http://www.give2tech.com/">Institutional Advancement</a></li>
+   <li><a href="http://www.redraiderclub.com/">Texas Tech Red Raider Club</a></li>
    </ul>
    </li>
-
-   <li class="has-children"><a href="#">Get Involved</a>
-   <ul class="is-hidden">
-   <div class="c-page-header__mobile">
-      <label class="c-page-header__title"> Texas Tech University </label>
-      <br>
-      <label class="c-page-header__category">Projects<br>
-         Get Involved
-         </label>
-
-      <hr>
-   </div>
-   <li class="go-back"><a href="#0">Back</a></li>
-   <li><a href="#">How to Join A Project</a></li>
-   <li><a href="#">Submit Project Idea</a></li>
-
-
    </ul>
    </li>
-
-
-   </ul>
-   </li>
-   <li class="has-children"><a href="#">Education</a>
+   <li class="has-children"><a href="http://www.ttu.edu/campus-life/">Campus Life</a>
    <ul class="cd-secondary-nav is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
@@ -368,93 +921,165 @@
 
       <hr>
    </div>
-
-   <li class="has-children"><a href="#">Course Descriptions</a>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li class="has-children"><a href="http://www.ttu.edu/campus-life/">Campus Life</a>
    <ul class="is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">Education<br>
-         Course Descriptions
+      <label class="c-page-header__category">Campus Life<br>
+         Campus Life
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
-   <li><a href="#">MATH 4330</a></li>
-   <li><a href="#">MATH 3430</a></li>
+   <li><a href="http://housing.ttu.edu/">Housing &amp; Facilities</a></li>
+   <li><a href="http://www.ttu.edu/map/">Getting Around Campus</a></li>
+   <li><a href="http://www.hospitality.ttu.edu/">Dining on Campus</a></li>
+   <li><a href="http://www.recsports.ttu.edu/">Recreational Sports</a></li>
+   <li><a href="http://www.ttu.edu/about/campus.php">Our Campus</a></li>
+   <li><a href="http://www.visit.ttu.edu/">Visit TTU</a></li>
    </ul>
    </li>
-
-   <li class="go-back"><a href="#0">Back</a></li>
-   <li class="has-children"><a href="#">MATH 3430 - Fall 2015</a>
+   <li class="has-children"><a href="http://www.ttu.edu/campus-life/student-life">Student Life</a>
    <ul class="is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">Education<br>
-         MATH 3430 - Fall 2015
+      <label class="c-page-header__category">Campus Life<br>
+         Student Life
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
-   <li><a href="#">Syllabus</a></li>
-   <li><a href="#">Assignments</a></li>
-   <li><a href="#">Lectures</a></li>
+   <li><a href="http://www.campuslife.ttu.edu/">Center for Campus Life</a></li>
+   <li><a href="http://www.sub.ttu.edu/">Student Union &amp; Activities</a></li>
+   <li><a href="http://greeklife.ttu.edu/">Fraternity &amp; Sorority Life</a></li>
+   <li><a href="http://www.campuslife.ttu.edu/spiritsquads/">Spirit Squads</a></li>
+   <li><a href="http://www.ttu.edu/campus-life/student-life/student-organizations.php">Student Organizations</a></li>
+   <li><a href="http://housing.ttu.edu/reslife/leadership">Student Leadership &amp; Involvement</a></li>
+   <li><a href="http://www.ttu.edu/traditions/">History &amp; Traditions</a></li>
+   <li><a href="http://www.recsports.ttu.edu/">Student Rec Center</a></li>
    </ul>
    </li>
-   <li class="has-children"><a href="#">MATH 4330 - Fall 2016</a>
+   <li class="has-children"><a href="http://www.ttu.edu/campus-life/health-safety-wellness.php">Health, Safety &amp; Wellness</a>
    <ul class="is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">Education<br>
-         MATH 4330 - Fall 2016
+      <label class="c-page-header__category">Campus Life<br>
+         Health, Safety &amp; Wellness
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
-   <li><a href="#">Syllabus</a></li>
-   <li><a href="#">Assignments</a></li>
-   <li><a href="#">Lectures</a></li>
+   <li><a href="http://emergency.ttu.edu/">Emergency Communications Center</a></li>
+   <li><a href="http://counseling.ttu.edu">Student Counseling Center</a></li>
+   <li><a href="http://www.ttuhsc.edu/studenthealth/">Student Health Services</a></li>
+   <li><a href="http://www.hs.ttu.edu/csa/">Center for the Study of Addiction and Recovery</a></li>
+   <li><a href="http://www.ttuhsc.edu/studentHealth/healthinsurance.aspx">Health Insurance</a></li>
+   <li><a href="http://responsibleliving.ttu.edu/">Responsible Community Living</a></li>
+   <li><a href="http://www.ttpd.ttu.edu/">Campus Police</a></li>
+   <li><a href="http://www.deanofstudents.ttu.edu/bit/">Behavioral Intervention Team</a></li>
+   <li><a href="http://www.depts.ttu.edu/rise/">Risk Intervention &amp; Safety Education (RISE)</a></li>
    </ul>
    </li>
-
-   <li class="has-children"><a href="#">Past Courses</a>
+   <li class="has-children"><a href="http://www.ttu.edu/campus-life/student-resources.php">Student Resources</a>
    <ul class="is-hidden">
    <div class="c-page-header__mobile">
       <label class="c-page-header__title"> Texas Tech University </label>
       <br>
-      <label class="c-page-header__category">Education<br>
-         Past Courses
+      <label class="c-page-header__category">Campus Life<br>
+         Student Resources
          </label>
 
       <hr>
    </div>
    <li class="go-back"><a href="#0">Back</a></li>
-   <li><a href="#">MATH 4330 - Spring 2016</a></li>
-   <li><a href="#">MATH 3430 - Fall 2015</a></li>
+   <li><a href="http://www.ttu.edu/current-students/">Current Students</a></li>
+   <li><a href="http://www.ttu.edu/studenthandbook">Student Handbook</a></li>
+   <li><a href="http://www.deanofstudents.ttu.edu/">Dean of Students</a></li>
+   <li><a href="http://www.careercenter.ttu.edu/">University Career Center</a></li>
+   <li><a href="http://cmsdev.ttu.edu/diversity/">Division of Institutional Diversity Equity &amp; Community Engagement</a></li>
+   <li><a href="http://www.mentortech.ttu.edu/">Mentor Tech</a></li>
+   <li><a href="http://www.ttu.edu/majors-and-colleges/academic-support.php">Academic Support</a></li>
+   <li><a href="http://www.depts.ttu.edu/diversity/ccaac/">Cross Cultural Advancement Center</a></li>
+   <li><a href="http://www.r2b.ttu.edu/">Red to Black - Student Financial Planning</a></li>
+   <li><a href="http://www.raidercard.ttu.edu/">University ID Card</a></li>
    </ul>
    </li>
-
    </ul>
    </li>
+   <li><a href="http://www.texastech.com/">Athletics</a></li>
+   <li class="has-children"><a href="http://www.ttu.edu/about/">About TTU</a>
+   <ul class="cd-secondary-nav is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">About TTU
+         </label>
 
-   <li><a href="#">Publications</a></li>
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li class="has-children"><a href="http://www.ttu.edu/">Texas Tech University</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">About TTU<br>
+         Texas Tech University
+         </label>
 
-   <li><a href="#">Contact Us</a></li>
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://www.ttu.edu/administration/president/">Office of the President</a></li>
+   <li><a href="http://www.provost.ttu.edu/">Office of the Provost</a></li>
+   <li><a href="http://www.ttu.edu/about/facts/">Texas Tech Facts</a></li>
+   <li><a href="http://www.ttu.edu/about/campus.php">Our Campus</a></li>
+   <li><a href="http://www.ttu.edu/administration/">Administrative Offices</a></li>
+   <li><a href="http://www.ttu.edu/stratplan/">University Strategic Plan</a></li>
+   <li><a href="http://www.ttu.edu/about/ttu-in-the-community/">TTU in the Community</a></li>
+   <li><a href="http://www.investu.ttu.edu/">The Value of Texas Tech</a></li>
+   </ul>
+   </li>
+   <li class="has-children"><a href="#">TTU Resources</a>
+   <ul class="is-hidden">
+   <div class="c-page-header__mobile">
+      <label class="c-page-header__title"> Texas Tech University </label>
+      <br>
+      <label class="c-page-header__category">About TTU<br>
+         TTU Resources
+         </label>
 
+      <hr>
+   </div>
+   <li class="go-back"><a href="#0">Back</a></li>
+   <li><a href="http://today.ttu.edu/">Texas Tech Today</a></li>
+   <li><a href="http://www.ttu.edu/map/">Campus Map</a></li>
+   <li><a href="http://www.depts.ttu.edu/officialpublications/calendar/">Academic Calendar</a></li>
+   <li><a href="http://www.give2tech.com/">Giving</a></li>
+   <li><a href="http://www.hr.ttu.edu/workattexastech/">Work at Texas Tech</a></li>
+   </ul>
+   </li>
+   </ul>
+   </li>
 
    <div class="l-ttunav is-hidden"><label class="c-page-header__title">Additional Resources</label>
 <a href="http://directory.texastech.edu/" tabindex="2" aria-label="TTU System Online Directory">Directory</a>
 <a href="http://raiderlink.ttu.edu/" tabindex="3" aria-label="Raiderlink">Raiderlink</a>
 <a href="http://www.ttu.edu/site/" tabindex="4" aria-label="Site Index">A-Z Index</a>
 </div>
-
+</div>
       </ul>
+
    </nav>
+
+
    	<script src="./js/global-foot.js"></script>
 	<script>
 		$("#nav").stick_in_parent({
